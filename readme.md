@@ -28,15 +28,17 @@
                                   | Bytes are converted to character |
                                   ------------------------------------
                                                |
-                                Tokenization   | Tokenization means breaking string into multiple tokens using separator.   
-                                using a parcer | In html file separator is <></>
-                                               |  
+                                Tokenization   | Tokenization means breaking string into multiple    
+                                using a parcer | tokens using separator.
+                                               | In html file separator is <></> 
+                                               |
                                   -------------------------------------  
                                   |  Browser converts token into nodes |
                                   --------------------------------------
                                                |
-                Nodes is an object present     | Every nodes is considered distinct with distinct properties.
-                stores in memeory              |
+                Nodes is an object present     | Every nodes is considered distinct
+                stores in memeory              |  with distinct properties.
+                                               |
                                 -------------------------------------------
                                 |    Represent nodes in the form of tree.  |
                                 --------------------------------------------
