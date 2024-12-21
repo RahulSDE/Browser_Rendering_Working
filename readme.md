@@ -95,10 +95,10 @@
 - Before we draw the **render tree** on the browser viewport, one more step is involved called `layout`(also called as **reflow step**).
   In this step, browser calculates the sizes, position and other metric for each element.
 
-- `Painting` : mow the broswer starts painting element.
+- `Painting` : Now the broswer starts painting element.
 
 ### **JAVASCRIPT WITH HTML IS A COSTLY AFFAIR**
-- we use  `script tag` in HTML to add javascript file into it.
+- we use  `script tag` in HTML to add **javascript file** into it.
 
 - `script tag` : This tag interact with HTML as well as CSS.
 
