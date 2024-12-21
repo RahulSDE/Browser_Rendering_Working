@@ -97,11 +97,13 @@
 
 - `Painting` : mow the broswer starts painting element.
 
-- **javascript with html is a costly affair**
-    - we use  `script tag` in HTML to add javascript file into it.
-    - `script tag` : This tag interact with HTML as well as CSS.
-    - Dom construction is paused when browser hits a script tag.
-    - 
+### **javascript with html is a costly affair**
+- we use  `script tag` in HTML to add javascript file into it.
+
+- `script tag` : This tag interact with HTML as well as CSS.
+
+- Dom construction is paused when browser hits a script tag.
+- 
     ```
      Script tag ----------------> DOM Construction halts
                 |
@@ -109,5 +111,5 @@
                                          |
                                In most engine, javascript is halted until CSSOM is constructed.
     ```
-              
+
                                         
