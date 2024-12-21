@@ -5,7 +5,7 @@
                         |
     Then browser figures out how to display your content.
 
-- **How Browser compute how to display any file??
+- **How Browser compute how to display any file??**
     - Browsers have an engine that decides algorithmically how to display content.
     - `Browser engines:`  is a simple piece of software that understands what it can display and algorithmically decides how it can display.
         - Ex: Geko, Blink, Webkit.
@@ -48,3 +48,15 @@
                                  --------------------------------------
     ```
 
+- Dom tree 
+
+    ```
+                                        html
+                                         |
+                     --------------------|----------------------
+                   title                                      body
+                     |                                         |
+             --------|---------                 ---------------|-----------------
+             |                |                 |              |                |
+            link            meta             header          main            footer
+    ```
