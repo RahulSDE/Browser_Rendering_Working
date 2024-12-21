@@ -37,7 +37,7 @@
                                   --------------------------------------
                                                |
                 Nodes is an object present/    | Every nodes is considered distinct
-                stores in memeory              |  with distinct properties.
+                stores in memory               |  with distinct properties.
                                                |
                                 -------------------------------------------
                                 |    Represent nodes in the form of tree.  |
