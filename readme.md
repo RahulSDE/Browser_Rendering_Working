@@ -65,7 +65,7 @@
 
 - Just like DOM Tree there is `CSSOM (CSS object Model) Tree`
 - `CSSOM` is the tree data structure, prepared by web browser like DOM Tree.
-- **how browser loads css file**
+- **HOW BROWSER LOADS CSS FILE**
     ```
                            ---------------   
                            |   css bytes |
@@ -97,7 +97,7 @@
 
 - `Painting` : mow the broswer starts painting element.
 
-### **javascript with html is a costly affair**
+### **JAVASCRIPT WITH HTML IS A COSTLY AFFAIR**
 - we use  `script tag` in HTML to add javascript file into it.
 
 - `script tag` : This tag interact with HTML as well as CSS.
