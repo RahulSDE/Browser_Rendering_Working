@@ -92,7 +92,7 @@
                             ----------
     ```
 
-- Before we draw the **render tree** on the browser viewport, one more step is involved called `layout`.(also called as **reflow step**)
+- Before we draw the **render tree** on the browser viewport, one more step is involved called `layout`(also called as **reflow step**).
   In this step, browser calculates the sizes, position and other metric for each element.
 
 - `Painting` : mow the broswer starts painting element.
