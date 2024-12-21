@@ -62,3 +62,52 @@
              |                |                 |              |                |
             link            meta             header          main            footer
     ```
+
+- Just like DOM Tree there is `CSSOM (CSS object Model) Tree`
+- `CSSOM` is the tree data structure, prepared by web browser like DOM Tree.
+- **how browser loads css file**
+    ```
+                           ---------------   
+                           |   css bytes |
+                           ---------------
+                                 |
+                                 |
+                      ---------------------------          
+                      |  converted to character |
+                      ---------------------------
+                                 |
+                                 |
+                            -------------     
+                            | Tokenizer |
+                            -------------
+                                 |
+                                 |
+                            ----------
+                            |  Nodes |
+                            ----------
+                                 |
+                                 |
+                            ----------
+                            |  CSSOM |
+                            ----------
+    ```
+
+- Before we draw the render tree on the broswer viewport, one more step is involved called `layout`.(also called as reflow step)
+  In this step, browser calculates the sizes, position and other metric for each element.
+
+- `Painting` : mow the broswer starts painting element.
+
+- **javascript with html is a costly affair**
+    - we use  `script tag` in HTML to add javascript file into it.
+    - `script tag` : This tag interact with HTML as well as CSS.
+    - Dom construction is paused when browser hits a script tag.
+    - 
+    ```
+     Script tag ----------------> DOM Construction halts
+                |
+                ----------------> What about CSSOM?
+                                         |
+                               In most engine, javascript is halted until CSSOM is constructed.
+    ```
+              
+                                        
