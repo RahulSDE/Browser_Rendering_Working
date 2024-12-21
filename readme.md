@@ -36,7 +36,7 @@
                                   |  Browser converts token into nodes |
                                   --------------------------------------
                                                |
-                Nodes is an object present     | Every nodes is considered distinct
+                Nodes is an object present/    | Every nodes is considered distinct
                 stores in memeory              |  with distinct properties.
                                                |
                                 -------------------------------------------
